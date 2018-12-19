@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <Module name  = "EfdDevUtils"
+    movie       = "EfdDevUtils\EfdDevUtils.swf"
+    depth_layer = "Middle"
+    sub_depth   = "10"
+    variable    = "efdDevModeOn"
+    criteria    = "efdDevModeOn &amp;&amp; (guimode &amp; (GUIMODEFLAGS_INPLAY | GUIMODEFLAGS_ENABLEALLGUI))"
+	flags       = "GMF_DONT_UNLOAD"
+  />
+</Root>
