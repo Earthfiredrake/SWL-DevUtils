@@ -1,9 +1,9 @@
-# SWL-DevTools
+# SWL-DevUtils
 A rather random collection of tools for SWL that I've used when developing mods or for personal curiosity
 Most features are controlled by DVs named `efdDevUtil*`
 
 ## Dynel Data Dumps
-  Data for various dynels is dumped to the system chat and log file (for later parsing). By default it's mostly location info, occasionally specialized for various Cartographer data formats. Tr
+  Data for various dynels is dumped to the system chat and log file (for later parsing). By default it's mostly location info, occasionally specialized for various Cartographer data formats.
   + `efdDevUtilDump` (bool, self-resets): Triggers a data dump for the dynel under the targeting reticle (when it has changed to a non-grey colour). `/tdd` (target data dump) script is provided as a shorthand
   + `efdDevUtilDumpSelf` (bool, self-resets): Triggers the data dump for the player avatar dynel
   + `efdDevUtilProxScan` (bool): Toggles data dumps for any dynel that enters proximity (useful for invisible/non-targeted dynels).
